@@ -21,3 +21,11 @@
 
 8. How are sales distributed by payment methods?
 - This data may be used to improve the checkout experience and encourage the use of certain payment methods.
+
+9- What percentage of sales come from new customers versus returning customers?
+
+- Helps evaluate the success of customer retention strategies versus attracting new customers.
+
+10- What are the products that achieve the highest profit margin, and how can their sales be increased?
+
+- It helps in identifying the products that should be promoted more because they achieve the highest profit for the company.
