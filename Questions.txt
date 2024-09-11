@@ -1,0 +1,23 @@
+1. What is the sales performance by branch?
+- Knowing the most and least profitable can help you improve marketing and distribution.
+
+2. What are the top four products in each branch?
+- Identifying the successful products in each branch helps in allocating papers according to local demand.
+
+3. What is the distribution of sales by time (daily, weekly, or monthly)?
+- This question clarifies the times of need and enhances marketing or promotions.
+
+4. What is the sales performance by product?
+- Helps identify categories that need support or those that are getting the most.
+
+5. How are discounts on sales volume?
+- Understanding the ratios between discounts and sales helps in setting better pricing.
+
+6. What is the fit between customer types (e.g., age or gender) and buying patterns?
+- Targeting specific customers with specific products or offers may result in generating sales.
+
+7. What is the average value per customer?
+- An average used to determine the purchase volume per customer.
+
+8. How are sales distributed by payment methods?
+- This data may be used to improve the checkout experience and encourage the use of certain payment methods.
