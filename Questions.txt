@@ -1,3 +1,5 @@
+Mohammed:
+
 1. What is the sales performance by branch?
 - Knowing the most and least profitable can help you improve marketing and distribution.
 
@@ -29,3 +31,7 @@
 10- What are the products that achieve the highest profit margin, and how can their sales be increased?
 
 - It helps in identifying the products that should be promoted more because they achieve the highest profit for the company.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
