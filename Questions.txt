@@ -34,4 +34,41 @@ Mohammed:
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
-
+1. General Performance Questions
+- What is the total sales for each branch over a specific period?
+- How is the total sales distributed across product lines?
+- What is the monthly average sales per branch?
+2. Customer-Related Questions
+- Is there a difference in sales between customer types (Normal vs. Member)?
+- Are there product preferences based on customer gender (Male vs. Female)?
+- Which customer category is most loyal (in terms of purchase frequency or average spending)?
+3. Product and Product Line Questions
+- What are the best-selling products by product line?
+- What is the average unit price for each product line?
+- How does the performance of product lines differ across branches or cities?
+4. Branch and City Questions
+- What is the performance of each branch in terms of sales and revenue?
+- Which city records the highest average sales?
+- How do payment methods differ across branches or cities?
+5. Tax-Related Questions
+- What is the total tax collected over a specific period?
+- Is there a sales impact when taxes are applied?
+6. Payment Method Questions
+- What are the most commonly used payment methods by customers?
+- Are there differences in total spending based on payment methods?
+7. Customer Rating Questions
+- What is the average customer rating per branch or product line?
+- Is there a relationship between higher ratings and increased sales?
+- Which products or branches receive the lowest ratings, and why?
+8. Time and Date Questions
+- What are the peak times (hour and day) for sales?
+- How are sales distributed over the week, month, or year?
+- Is there a seasonal effect (such as holidays or special events) on sales?
+9. Profitability Questions
+- What is the overall profit margin for each product line?
+- What are the most profitable products?
+- How do quantities sold and taxes affect overall profit?
+10. Trend and Change Questions
+- How have sales changed over time?
+- Are there any specific trends over certain periods (e.g., increase in sales of a particular product)?
+-Are there fluctuations in customer ratings or satisfaction over time?
