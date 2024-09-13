@@ -60,29 +60,34 @@ The cleaned data was stored in a CSV file using Pandas, ready for further analys
 ## Dashboards
 This section includes key dashboards that provide insights into supermarket sales. The dashboards cover various KPIs, including total sales, profit margins, and customer behavior analysis.
 
-1. **Total Sales by Product Line and Branch**  
-   > **Image Placeholder: Total Sales by Product Line and Branch**  
-   _An overview of sales performance across different product lines and branches._
+1. **Overview**  
+   > **![Overview](https://github.com/user-attachments/assets/122f8cc4-38a0-40cb-97dd-e7aaaa48638d)
+ **  
+   
 
-2. **Customer Segmentation by Purchase Frequency**  
-   > **Image Placeholder: Customer Segmentation by Purchase Frequency**  
-   _A visual analysis of customer types and their purchasing behavior._
+2. **Sales and Customer**  
+   > **![Sales and Customer](https://github.com/user-attachments/assets/8b11bf83-36cf-4a8d-8dde-121038a9f057)
+ **  
+   
+3. **Product Line Performance**  
+   > **![Product Line Performance](https://github.com/user-attachments/assets/5394477d-65a4-49a6-a193-2de2dc7dd7c2)
+ **  
+   
 
-3. **Gender-Based Product Preferences**  
-   > **Image Placeholder: Gender-Based Product Preferences**  
-   _Insights into which products are favored by male versus female customers._
+4. **Sales and Transaction Insights**  
+   > **![Sales and Transaction Insights](https://github.com/user-attachments/assets/606006a6-2188-4df7-b60a-a4d0be3393db)
+ **  
+  
 
-4. **Sales and Profit Margin Analysis**  
-   > **Image Placeholder: Sales and Profit Margin Analysis**  
-   _A comparison of sales figures against profit margins across branches and product lines._
+5. **Rating and Sales Analysis**  
+   > ** ![Rating and Sales Analysis](https://github.com/user-attachments/assets/1b4cd32b-2f3c-48dd-9b6d-5f741b69f6db)
+**  
+  
 
-5. **Sales Performance over Time (Daily)**  
-   > **Image Placeholder: Sales Performance over Time (Daily)**  
-   _Tracking daily sales performance to identify trends and peaks in sales._
-
-6. **Customer Satisfaction by Branch and Product Line**  
-   > **Image Placeholder: Customer Satisfaction by Branch and Product Line**  
-   _Customer feedback and ratings visualized against branch and product line performance._
+6. **Profit Analysis**  
+   > **![Profit Analysis](https://github.com/user-attachments/assets/6b823f83-912a-424b-ab28-68b99ce4245d)
+ **  
+  
 
 ---
 
