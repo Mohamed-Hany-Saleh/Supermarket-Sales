@@ -48,9 +48,24 @@ Steps taken to clean the dataset:
 - Filled missing values for totals and taxes
 - Removed duplicates and handled negative/invalid entries
 - Ensured proper data types for date and price columns
+###Data Overview
+> ![Data Gathering](https://github.com/user-attachments/assets/3249fff7-4294-426e-aea7-ccaf51590dcd)
 
-> **Image Placeholder: Data Cleaning Code from Wrangling Sales.ipynb**  
-> _This is where the image of the data cleaning process in Colab will be placed._
+###Data Cleaning
+![Fixing Tidiness issues](https://github.com/user-attachments/assets/f12d4bbe-f71d-4f58-bdd4-f742f638f183)
+
+
+![Test](https://github.com/user-attachments/assets/2d74f281-4138-4706-a6f0-d75a68bfb103)
+
+
+![Fixing Quality Issues](https://github.com/user-attachments/assets/067c8baf-8d3a-41e4-bddb-f1d2853084b3)
+
+
+![Change column names](https://github.com/user-attachments/assets/52361336-8664-4e99-b4f7-52ba7499ef90)
+
+
+###Cleaned Data Overview
+![Data Assessing After Cleaning](https://github.com/user-attachments/assets/c4a6c34a-adf7-4561-8c41-6b60bea432c9)
 
 ### 4. Storing
 The cleaned data was stored in a CSV file using Pandas, ready for further analysis in Power BI.
