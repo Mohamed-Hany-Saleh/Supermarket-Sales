@@ -1,110 +1,122 @@
 # Supermarket Sales Data Analysis
 
-## Project Overview
-This project focuses on cleaning, analyzing, and visualizing supermarket sales data to uncover key business insights. The analysis is performed in three key phases:
-1. **Data Wrangling**: Cleaning the raw sales data to make it ready for analysis using Python.
-2. **Dashboard Creation**: Visualizing key metrics and insights using Power BI.
-3. **Business Insights Report**: Summarizing the findings and providing actionable insights for decision-making.
-
----
+This project provides a comprehensive analysis of supermarket sales data, focusing on key insights and business intelligence derived from sales across different branches, product lines, customer types, and more. The project includes data wrangling, dashboards created in Power BI, and an in-depth Business Insights Report.
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Dataset Description](#dataset-description)
-3. [Data Wrangling Process](#data-wrangling-process)
-   - Data Gathering
-   - Data Assessing
-   - Data Cleaning
-4. [Data Analysis and Visualizations](#data-analysis-and-visualizations)
-5. [Business Insights](#business-insights)
-6. [How to Run](#how-to-run)
-7. [Future Work](#future-work)
+2. [Data Wrangling](#data-wrangling)
+   - Gathering
+   - Assessing
+   - Cleaning
+   - Storing
+3. [Dashboards](#dashboards)
+   - Key Dashboards
+4. [Business Insights Report](#business-insights-report)
+5. [How to Run](#how-to-run)
+6. [Conclusion](#conclusion)
 
 ---
 
 ## Introduction
-The **Supermarket Sales Data Analysis** project explores sales transactions from multiple branches to extract valuable insights related to customer preferences, product performance, and payment methods. The dataset was cleaned using Python in **Google Colab** (**Wrangling Sales.ipynb**) and visualized using **Power BI**.
+This project focuses on analyzing supermarket sales to derive meaningful insights that can drive decision-making and improve business performance. Using Power BI for visualizations and Python for data cleaning, we address key questions about sales performance, customer segmentation, and product profitability.
 
 ---
 
-## Dataset Description
-The dataset consists of 1006 rows and 16 columns, capturing sales transactions including:
-- **Invoice Number**
-- **Branch**
-- **Customer Type**
-- **Product Line**
-- **Quantity Sold**
-- **Price per Unit**
-- **Taxes**
-- **Total**
-- **Payment Method**
-- **Customer Ratings**
-
----
-
-## Data Wrangling Process
+## Data Wrangling
 ### 1. Data Gathering
-The data was initially collected from the supermarket's sales system. It contained information about sales, customer preferences, and payment methods.
+The dataset contains 16 columns and 1006 rows, with information like:
+- Invoice number
+- Branch
+- Customer type
+- Product type
+- Quantity sold
+- Price per unit
+- Taxes and totals
+- Payment method
+- Customer ratings
 
 ### 2. Data Assessing
-Before cleaning, the dataset was assessed for the following issues:
-- **Quality Issues**: Inconsistent formats, missing data, and erroneous values.
-- **Completeness**: Missing values in critical columns such as total amounts and taxes.
-
-_**[Insert Image 1: Initial Dataset Overview from Wrangling Sales.ipynb]**_
+Initial assessment was conducted to identify issues in data quality, completeness, and accuracy. Some key findings include:
+- Inconsistent pricing formats (e.g., "USD")
+- Empty values in the "Total" column
+- Incorrect time formats (e.g., "(pm)" indicators)
 
 ### 3. Data Cleaning
-The cleaning process addressed the following:
-- Removed "USD" from the **Unit Price** column.
-- Filled missing values for **Total** by calculating: `Quantity * Unit Price + 5% Tax`.
-- Fixed formatting issues in the **Time** and **Date** columns.
-- Renamed columns for clarity (e.g., **Invoice_ID**, **Product_Line**, **Tax_5%**).
-- Replaced negative and incorrect values.
+Steps taken to clean the dataset:
+- Removed currency symbols (e.g., "USD")
+- Corrected the time formats
+- Filled missing values for totals and taxes
+- Removed duplicates and handled negative/invalid entries
+- Ensured proper data types for date and price columns
 
-_**[Insert Image 2: Cleaning Steps in Wrangling Sales.ipynb]**_
+> **Image Placeholder: Data Cleaning Code from Wrangling Sales.ipynb**  
+> _This is where the image of the data cleaning process in Colab will be placed._
 
-After cleaning, the data was reassessed to ensure there were no missing values or inconsistencies.
-
-_**[Insert Image 3: Cleaned Data Overview from Wrangling Sales.ipynb]**_
-
-### 4. Data Storing
-The cleaned data was stored in a **CSV** file and is ready for analysis and visualization.
+### 4. Storing
+The cleaned data was stored in a CSV file using Pandas, ready for further analysis in Power BI.
 
 ---
 
-## Data Analysis and Visualizations
-The next step is creating insightful visualizations using **Power BI**. Key visualizations include:
-- **Sales Trends by Branch**
-- **Customer Preferences by Product Line**
-- **Impact of Discounts on Sales**
-- **Sales Distribution by Payment Method**
+## Dashboards
+This section includes key dashboards that provide insights into supermarket sales. The dashboards cover various KPIs, including total sales, profit margins, and customer behavior analysis.
 
-_**[Placeholder for Power BI Dashboard Screenshot]**_
+1. **Total Sales by Product Line and Branch**  
+   > **Image Placeholder: Total Sales by Product Line and Branch**  
+   _An overview of sales performance across different product lines and branches._
+
+2. **Customer Segmentation by Purchase Frequency**  
+   > **Image Placeholder: Customer Segmentation by Purchase Frequency**  
+   _A visual analysis of customer types and their purchasing behavior._
+
+3. **Gender-Based Product Preferences**  
+   > **Image Placeholder: Gender-Based Product Preferences**  
+   _Insights into which products are favored by male versus female customers._
+
+4. **Sales and Profit Margin Analysis**  
+   > **Image Placeholder: Sales and Profit Margin Analysis**  
+   _A comparison of sales figures against profit margins across branches and product lines._
+
+5. **Sales Performance over Time (Daily)**  
+   > **Image Placeholder: Sales Performance over Time (Daily)**  
+   _Tracking daily sales performance to identify trends and peaks in sales._
+
+6. **Customer Satisfaction by Branch and Product Line**  
+   > **Image Placeholder: Customer Satisfaction by Branch and Product Line**  
+   _Customer feedback and ratings visualized against branch and product line performance._
 
 ---
 
-## Business Insights
-Based on the data analysis, key insights were extracted that can help the supermarket management make better business decisions. These insights will be compiled into a detailed **Business Insights Report**, which includes:
-- The performance of different branches.
-- Popular products among different customer types.
-- Payment preferences and their impact on sales.
+## Business Insights Report
+### Executive Summary of Supermarket Sales Performance Report
+The report dives deep into the sales performance across multiple dimensions—branches, product lines, and customer segments—highlighting key takeaways and trends.
+
+#### 1. Total Sales
+The total revenue from all sales transactions across product lines, customer types, and branches was analyzed:
+- **Product Line Breakdown:** Food and Beverages lead in total sales with $56k, followed by Sports and Travel at $55k.
+- **Customer Type Breakdown:** Normal customers generated more revenue than Member customers.
+- **Branch Breakdown:** Branch C had the highest sales, while Branches A and B were closely behind.
+
+#### 2. Gender-Based Insights
+Male and female customers exhibited distinct preferences in certain product categories, with females showing higher spending in Fashion and Lifestyle, while males dominated in Health and Beauty.
+
+#### 3. Profit and Unit Price Analysis
+The Fashion and Sports categories had the highest average unit prices, but Food and Beverages led in total profit.
+
+#### 4. Customer Satisfaction and Sales
+A strong correlation was identified between high customer satisfaction (rating) and high sales in both product lines and branches, with Branch C and the Food and Beverages category standing out.
+
+> **Image Placeholder: Sales and Customer Satisfaction Analysis Chart**  
+> _This chart shows the relationship between sales and customer satisfaction._
 
 ---
 
 ## How to Run
-To run the data wrangling process, you can follow these steps:
-1. Open the **Wrangling Sales.ipynb** file in **Google Colab**.
-2. Run each cell to clean and process the dataset.
-3. Export the cleaned data as a **CSV** file.
-4. Open **Power BI Desktop** and import the cleaned data for visualization.
+1. Clone this repository.
+2. Install dependencies.
+3. Load the cleaned dataset into Power BI for visualization.
+4. View the dashboards for insights into supermarket performance.
 
 ---
 
-## Future Work
-The project will continue with the following updates:
-- Adding more advanced visualizations in **Power BI**.
-- Finalizing the **Business Insights Report**.
-- Exploring additional predictive models based on sales trends.
-
-Stay tuned for more updates!
-
+## Conclusion
+This project provides a holistic view of supermarket performance, with actionable insights derived from sales data, customer behavior, and profitability trends. The dashboards and analysis are essential for improving business strategies and enhancing customer satisfaction.
