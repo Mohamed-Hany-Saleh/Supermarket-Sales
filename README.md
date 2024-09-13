@@ -61,32 +61,31 @@ The cleaned data was stored in a CSV file using Pandas, ready for further analys
 This section includes key dashboards that provide insights into supermarket sales. The dashboards cover various KPIs, including total sales, profit margins, and customer behavior analysis.
 
 1. **Overview**  
-   > **![Overview](https://github.com/user-attachments/assets/122f8cc4-38a0-40cb-97dd-e7aaaa48638d)
- **  
+   > ![Overview](https://github.com/user-attachments/assets/122f8cc4-38a0-40cb-97dd-e7aaaa48638d)
+  
    
 
 2. **Sales and Customer**  
-   > **![Sales and Customer](https://github.com/user-attachments/assets/8b11bf83-36cf-4a8d-8dde-121038a9f057)
- **  
+   > ![Sales and Customer](https://github.com/user-attachments/assets/8b11bf83-36cf-4a8d-8dde-121038a9f057)
    
-3. **Product Line Performance**  
-   > **![Product Line Performance](https://github.com/user-attachments/assets/5394477d-65a4-49a6-a193-2de2dc7dd7c2)
- **  
+   
+3. **Product Line Performance** 
+   > ![Product Line Performance](https://github.com/user-attachments/assets/5394477d-65a4-49a6-a193-2de2dc7dd7c2)
+  
    
 
 4. **Sales and Transaction Insights**  
-   > **![Sales and Transaction Insights](https://github.com/user-attachments/assets/606006a6-2188-4df7-b60a-a4d0be3393db)
- **  
+   > ![Sales and Transaction Insights](https://github.com/user-attachments/assets/606006a6-2188-4df7-b60a-a4d0be3393db)
+   
   
 
 5. **Rating and Sales Analysis**  
-   > ** ![Rating and Sales Analysis](https://github.com/user-attachments/assets/1b4cd32b-2f3c-48dd-9b6d-5f741b69f6db)
-**  
+   > ![Rating and Sales Analysis](https://github.com/user-attachments/assets/1b4cd32b-2f3c-48dd-9b6d-5f741b69f6db)
+  
   
 
 6. **Profit Analysis**  
-   > **![Profit Analysis](https://github.com/user-attachments/assets/6b823f83-912a-424b-ab28-68b99ce4245d)
- **  
+   > ![Profit Analysis](https://github.com/user-attachments/assets/6b823f83-912a-424b-ab28-68b99ce4245d)
   
 
 ---
