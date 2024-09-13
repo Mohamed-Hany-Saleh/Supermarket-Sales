@@ -48,10 +48,10 @@ Steps taken to clean the dataset:
 - Filled missing values for totals and taxes
 - Removed duplicates and handled negative/invalid entries
 - Ensured proper data types for date and price columns
-###Data Overview
+### Data Overview
 > ![Data Gathering](https://github.com/user-attachments/assets/3249fff7-4294-426e-aea7-ccaf51590dcd)
 
-###Data Cleaning
+### Data Cleaning
 ![Fixing Tidiness issues](https://github.com/user-attachments/assets/f12d4bbe-f71d-4f58-bdd4-f742f638f183)
 
 
@@ -64,7 +64,7 @@ Steps taken to clean the dataset:
 ![Change column names](https://github.com/user-attachments/assets/52361336-8664-4e99-b4f7-52ba7499ef90)
 
 
-###Cleaned Data Overview
+### Cleaned Data Overview
 ![Data Assessing After Cleaning](https://github.com/user-attachments/assets/c4a6c34a-adf7-4561-8c41-6b60bea432c9)
 
 ### 4. Storing
