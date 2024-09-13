@@ -109,8 +109,7 @@ The Fashion and Sports categories had the highest average unit prices, but Food 
 #### 4. Customer Satisfaction and Sales
 A strong correlation was identified between high customer satisfaction (rating) and high sales in both product lines and branches, with Branch C and the Food and Beverages category standing out.
 
-> **Image Placeholder: Sales and Customer Satisfaction Analysis Chart**  
-> _This chart shows the relationship between sales and customer satisfaction._
+
 
 ---
 
